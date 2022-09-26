@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" {{a..o}{a..o}}| cut -c 2,3 |grep -v oo | tail
+printf "%s\n" {{a..z}{a..z}}| cut -c 2,3 |grep -v oo | tail
